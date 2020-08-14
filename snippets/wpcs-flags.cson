@@ -25,7 +25,7 @@
         body: "// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals"
     "Allow preparedSQL placeholders vs replacements":
         prefix: "wpcs_preparedsql",
-        body: "// WPCS: PreparedSQLPlaceholders replacement count ok."
+        body: "// phpcs:ignore WordPress.DB.PreparedSQLPlaceholders.UnfinishedPrepare"
     "Allow unsanitized code":
         prefix: "wpcs_sanitization",
         body: "// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized"
