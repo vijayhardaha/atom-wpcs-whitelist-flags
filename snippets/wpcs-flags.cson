@@ -1,43 +1,43 @@
 ".source.php":
     "Ignore: Allow database query without caching":
-        prefix: "wpcs_cache",
+        prefix: "wpcs_cache"
         body: "// phpcs:ignore WordPress.DB.DirectDatabaseQuery.NoCaching"
     "Ignore: No need for nonce verification/CSRF":
-        prefix: "wpcs_csrf",
+        prefix: "wpcs_csrf"
         body: "// phpcs:ignore WordPress.Security.NonceVerification"
     "Ignore: Allow direct database query":
-        prefix: "wpcs_db_call",
+        prefix: "wpcs_db_call"
         body: "// phpcs:ignore WordPress.Sniffs.DB.DirectDatabaseQuery"
     "Ignore: Allow use of superglobal":
-        prefix: "wpcs_input_var",
+        prefix: "wpcs_input_var"
         body: "// phpcs:ignore WordPress.Security.EscapeOutput"
     "Ignore: Allow loose comparison":
-        prefix: "wpcs_loose_comparison",
+        prefix: "wpcs_loose_comparison"
         body: "// phpcs:ignore WordPress.PHP.StrictComparisons.LooseComparison"
     "Ignore: Allow override WordPress globals":
-        prefix: "wpcs_override",
+        prefix: "wpcs_override"
         body: "// phpcs:ignore WordPress.WP.GlobalVariablesOverride"
     "Ignore: Ignore precision alignment":
-        prefix: "wpcs_precision_alignment",
+        prefix: "wpcs_precision_alignment"
         bIgnore: ody: "// phpcs:ignore WordPress.Sniffs.PrecisionAlignment"
     "Ignore: Allow non-prefixed function/class/variable/constant in the global namespace":
-        prefix: "wpcs_prefix",
+        prefix: "wpcs_prefix"
         body: "// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals"
     "Ignore: Allow preparedSQL placeholders vs replacements":
-        prefix: "wpcs_preparedsql",
+        prefix: "wpcs_preparedsql"
         body: "// phpcs:ignore WordPress.DB.PreparedSQLPlaceholders.UnfinishedPrepare"
     "Ignore: Allow unsanitized code":
-        prefix: "wpcs_sanitization",
+        prefix: "wpcs_sanitization"
         body: "// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized"
     "Ignore: Allow slow query":
-        prefix: "wpcs_slow_query",
+        prefix: "wpcs_slow_query"
         body: "// phpcs:ignore WordPress.DB.SlowDBQuery"
     "Ignore: Allow incorrect \"WordPress\" spelling":
-        prefix: "wpcs_spelling",
+        prefix: "wpcs_spelling"
         body: "// phpcs:ignore: WordPress.WP.CapitalPDangit"
     "Ignore: Allow unprepared SQL query":
-        prefix: "wpcs_unprepared_sql",
+        prefix: "wpcs_unprepared_sql"
         body: "// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared"
     "Ignore: Allow unescaped code":
-        prefix: "wpcs_xss",
-        body: "// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped",
+        prefix: "wpcs_xss"
+        body: "// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped"
